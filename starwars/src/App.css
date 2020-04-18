@@ -6,3 +6,41 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+
+/* card styles */
+
+.CardTemp {
+  background-color: black;
+  color: yellow;
+  border-radius: .35rem;
+  padding: 1rem;
+  box-shadow: 1rem 1rem grey;
+  margin: 2rem;
+  height: 16rem;
+  text-align: left;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card {
+  width: 20rem;
+  
+}
+
+.CardHolder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aligner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: grey solid 2px;
+}
